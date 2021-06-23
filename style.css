@@ -1,0 +1,67 @@
+body {
+    background-color: red;
+}
+
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 7px 7px 7px grey;
+}
+
+.note {
+    font-size: 15px;
+    color: rgb(2, 2, 253);
+    background-color: yellow;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    text-align: center;
+    line-height: 3;
+}
+
+canvas {
+    border: 5px ridge blue;
+    border-radius: 10px;
+    box-shadow: 7px 7px 17px;
+    animation-name: animation;
+    animation-duration: 5s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+    margin-bottom: 50px;
+}
+
+@keyframes animation {
+    0% {
+        box-shadow: 7px 7px 40px violet;
+    }
+
+    14% {
+        box-shadow: 7px 7px 40px indigo;
+    }
+
+    28% {
+        box-shadow: 7px 7px 40px blue;
+    }
+
+    52% {
+        box-shadow: 7px 7px 40px green;
+    }
+
+    68% {
+        box-shadow: 7px 7px 40px yellow;
+    }
+
+    82% {
+        box-shadow: 7px 7px 40px orange;
+    }
+
+    100% {
+        box-shadow: 7px 7px 40px red;
+    }
+}
